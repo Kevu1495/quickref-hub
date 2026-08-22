@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }} | QuickRef Hub</title>
+    <meta name="description" content="{{ description }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+</head>
+<body>
+    <main class="container">
+        <nav><ul><li><strong><a href="/">QuickRef Hub</a></strong></li></ul></nav>
+        <article>
+            <header>
+                <h1>{{ title }}</h1>
+                <p><em>Category: {{ category }}</em></p>
+            </header>
+            
+            {{ content | safe }}
+            
+        </article>
+    </main>
+</body>
+</html>
