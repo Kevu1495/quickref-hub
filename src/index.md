@@ -12,7 +12,7 @@ Welcome to **QuickRef Hub**. This is a fast, no-nonsense directory of syntax ref
 
 * [Python & Pandas Basics](/python-pandas-basics)
 * [Java AI Integration Quickstart](/java-ai-quickstart)
-* [Git Branching & Merge Conflicts](/git-branching)
+* [Git Branching & Merge Conflicts](/git-basics)
 * [Docker Multi-Stage Builds](/docker-builds)
 
 ---
